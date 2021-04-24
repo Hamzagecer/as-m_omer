@@ -27,7 +27,7 @@ var noise = x => {
 }
 
 // init
-var bgcolor = "#ff4301"; // turuncu
+var bgcolor = "orange"; // turuncu
 var forecolor = "#4a3f35"; // acik gri
 var linecolor = "#2f2519"; // koyu gri
 var linewidth = 5;
@@ -47,7 +47,7 @@ var player = new function () {
     this.x = c.width / 2;
     this.y = 50;
     this.truck = new Image();
-    this.truck.src = "./img/hams.png";
+    this.truck.src = "./img/kardes.png";
     this.rot = 0;
     this.ySpeed = 0;
     this.rSpeed = 0;
